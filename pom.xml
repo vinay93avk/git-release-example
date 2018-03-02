@@ -4,15 +4,15 @@
 
 	<groupId>com.vitormp</groupId>
 	<artifactId>git-release-example</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:vitormp/GitRelease.git</connection>
-		<developerConnection>scm:git:git@github.com:vitormp/GitRelease.git</developerConnection>
-		<url>scm:git:git@github.com:vitormp/GitRelease.git</url>
+		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
+		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
+		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -20,14 +20,14 @@
 		<repository>
 			<id>nexusrepo</id>
 			<name>My releases</name>
-			<url>http://192.168.3.166:8081/nexus/content/repositories/releases</url>
+			<url>http://0.0.0.0:8081/repository/Releases/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexusrepo</id>
 			<name>My snapshots</name>
-			<url>http://192.168.3.166:8081/nexus/content/repositories/snapshots</url>
+			<url>http://0.0.0.0:8081/repository/Snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
