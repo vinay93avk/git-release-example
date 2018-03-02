@@ -4,7 +4,7 @@
 
 	<groupId>com.vitormp</groupId>
 	<artifactId>git-release-example</artifactId>
-	<version>0.1.8-SNAPSHOT</version>
+	<version>0.1.8</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,7 +13,8 @@
 		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
 		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
 		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
-	</scm>
+	  <tag>git-release-example-0.1.8</tag>
+  </scm>
 
 	<distributionManagement>
 		<!-- Publish versioned releases here -->
