@@ -10,9 +10,9 @@
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
-		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
-		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
+		<connection>scm:git:https://github.com/vinay93avk/git-release-example.git</connection>
+		<developerConnection>scm:git:https://github.com/vinay93avk/git-release-example.git</developerConnection>
+		<url>scm:git:https://github.com/vinay93avk/git-release-example.git</url>
           <tag>HEAD</tag>
   </scm>
 
@@ -20,15 +20,15 @@
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<name>My releases</name>
-			<url>http://192.168.0.66:8081/repository/Releases</url>
+			<name>maven-first-release</name>
+			<url>http://localhost:8081/repository/maven-first-release/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
-			<name>My snapshots</name>
-			<url>http://192.168.0.66:8081/repository/Snapshots</url>
+			<name>maven-first-repo</name>
+			<url>http://localhost:8081/repository/maven-first-repo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -53,6 +53,9 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 
 </project>
