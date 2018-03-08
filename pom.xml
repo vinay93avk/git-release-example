@@ -3,6 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vitormp</groupId>
+	<artifactId>git-release-example</artifactId>
 	<version>0.1.14-SNAPSHOT</version>
 	<packaging>war</packaging>
 
