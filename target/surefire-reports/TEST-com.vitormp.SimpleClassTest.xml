@@ -47,7 +47,7 @@
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.2/libexec/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=/Users/vinayarigala/.m2/repository -s /private/var/folders/1x/2g7sgvc94cnb_pll4_j_zkjh0000gn/T/release-settings11041821921026204066.xml clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=/Users/vinayarigala/.m2/repository -s /private/var/folders/1x/2g7sgvc94cnb_pll4_j_zkjh0000gn/T/release-settings4635921778625635458.xml clean verify"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
